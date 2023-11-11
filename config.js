@@ -4,7 +4,7 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 //═══════[Required Variables]════════\\
 global.owner = process.env.OWNER_NUMBER.split("94728103228")
-global.mongodb = process.env.MONGODB_URI || "Enter-MongoURI-HERE"
+global.mongodb = process.env.MONGODB_URI || "mongodb+srv://Sahan:Sahan123456@cluster0.2s8k9t2.mongodb.net/"
 global.port= process.env.PORT || 5000
 global.email = 'botmd999@gmail.com'
 global.github = 'https://github.com/botmd999/Lottasoma-MD'
@@ -37,8 +37,8 @@ module.exports = {
   levelupmessage: process.env.LEVEL_UP_MESSAGE || 'true',
   antilink: process.env.ANTILINK_VALUES || 'tsapp.com',
   antilinkaction: process.env.ANTILINK_ACTION || 'remove',
-  HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || 'put your herokuapp name',
-  HEROKU_API_KEY: process.env.HEROKU_API_KEY || 'put your heroku_api_key',
+  HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || 'botmd011',
+  HEROKU_API_KEY: process.env.HEROKU_API_KEY || '67bbd085-dad4-40d4-aca1-d4d6bd435752',
   BRANCH: 'main',
   ALIVE_MESSAGE: process.env.ALIVE_MESSAGE || '',
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || 'put-key-here',
