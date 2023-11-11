@@ -41,7 +41,7 @@ module.exports = {
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || '67bbd085-dad4-40d4-aca1-d4d6bd435752',
   BRANCH: 'main',
   ALIVE_MESSAGE: process.env.ALIVE_MESSAGE || '',
-  OPENAI_API_KEY: process.env.OPENAI_API_KEY || 'put-key-here',
+  OPENAI_API_KEY: process.env.OPENAI_API_KEY || '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',
   VERSION: process.env.VERSION === undefined ? 'v.5.0.0' : process.env.VERSION,
   LANG: process.env.THEME|| 'PRABATH-MD',
   WORKTYPE: process.env.WORK_TYPE === undefined ? 'public' : process.env.WORK_TYPE
